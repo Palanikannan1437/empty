@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "separators",
+  "info": {
+    "singularName": "separator",
+    "pluralName": "separators",
+    "displayName": "separator"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "item": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
