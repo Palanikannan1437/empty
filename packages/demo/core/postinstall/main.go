@@ -51,11 +51,9 @@ func absPath() string {
 }
 
 func main() {
-	absPath()
-
 	schemaPath := getSchemaPath()
 
-	if err := copySchema(schemaPath, "seperator2"); err != nil {
+	if err := copySchema(schemaPath, "seperator-demo"); err != nil {
 		fmt.Println("Error copying schema:", err)
 		os.Exit(1)
 	}

@@ -4,7 +4,7 @@ services:
   opensource-contribution-leaderboard:
     image: rohanlekhwani/opensource-contribution-leaderboard:latest
     volumes:
-      - ./leaderboard-config/server/config.json:/dist/server/config.json
-      - ./leaderboard-config/assets/data:/data
+      - ./server/config.json:/dist/server/config.json
+      - ./assets/data:/data
     ports:
       - "8080:8080"

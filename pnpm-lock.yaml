@@ -195,12 +195,18 @@ importers:
       '@tanstack/react-table':
         specifier: ^8.9.1
         version: 8.9.1(react-dom@18.2.0)(react@18.2.0)
+      class-variance-authority:
+        specifier: ^0.4.0
+        version: 0.4.0(typescript@4.9.5)
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
       esbuild:
         specifier: ^0.17.19
         version: 0.17.19
+      lucide-react:
+        specifier: 0.105.0-alpha.4
+        version: 0.105.0-alpha.4(react@18.2.0)
       tailwind-merge:
         specifier: ^1.12.0
         version: 1.12.0
