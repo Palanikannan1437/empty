@@ -4,9 +4,11 @@
   "main": "./dist/index.js",
   "types": "./index.tsx",
   "license": "MIT",
+  "bin": {
+    "init": "./core/postinstall/postinstall-script"
+  },
   "scripts": {
-    "lint": "eslint \"**/*.ts*\"",
-    "postinstall": "go run core/postinstall/main.go"
+    "lint": "eslint \"**/*.ts*\""
   },
   "devDependencies": {
     "@types/gulp": "^4.0.10",
